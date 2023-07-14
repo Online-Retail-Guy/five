@@ -3,9 +3,9 @@
 
 Five started its life more or less as a direct port  of the [Skeletal](https://github.com/NetoECommerce/Skeletal) development theme for [Neto by Maropost](https://www.netohq.com/) which is the base theme framework that contains all of platform's front-end features. 
 
-Five updates the Bootstrap framework to version 5 and since the initial port has morphed into its own development theme with different goals and ideas from the origional Skeletal theme. 
+Five updates the Bootstrap framework to version 5 and since the initial port has morphed into its own development theme with different goals and ideas from the original Skeletal theme. 
 
-**Special note:** on browser compatibility, Bootstrap 5 only supports the latest two versions of the following Chrome, Firefox, Safari, Edge, Internet Explorer 11 (with some limitations), Opera, it may work on older browsers however you may have rendering issues using this theme in your webstore.
+**Special note:** Browser Compatibility: Bootstrap 5 only supports the latest two versions of the following Chrome, Firefox, Safari, Edge, Internet Explorer 11 (with some limitations), Opera, it may work on older browsers however you may have rendering issues using this theme in your webstore.
 
 Please do not report issues with this theme without first checking you are using an up to date browser.
 
@@ -60,10 +60,14 @@ We have a simple testing guide located [here](/testing.md).
 
 Contributing to Five is open and welcome, please read the [contribution guidelines here](/CONTRIBUTING.md).
 
-## Origional Creators
+## Support
 
-Origional Skeletal theme developed by [Maropost](https://www.netohq.com/).
+Installation and implementation support is available for $300 per hour. You can [Contact us here](https://www.onlineretailguy.com.au/contact)
+
+## Original Creators
+
+Original Skeletal theme developed by [Maropost](https://www.netohq.com/).
 
 ## Maintained
 
-Five is maintained by [Online Retail Guy](https://www.onlineretailguy.com.au/) as a labour of love for the Neto Community. Installation and implementation support is available for $300 per hour.
+Five is maintained by [Online Retail Guy](https://www.onlineretailguy.com.au/) as a labour of love for the Neto Community. Installation and implementation support is available for $300 per hour. You can [Contact us here](https://www.onlineretailguy.com.au/contact)
