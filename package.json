@@ -1,0 +1,48 @@
+{
+	"name": "Five",
+	"version": "0.0.1",
+	"description": "Five started as a direct port  of the Skeletal development theme for Neto by Maropost which is the base theme framework that contains all of platform's front-end features. The Five theme updates the Bootstrap framework to version 5 and has since morphed into its own development theme with different goals and ideas from the original Skeletal theme. Special note on browser compatibility, Bootstrap 5 only supports the latest two versions of the following Chrome, Firefox, Safari, Edge, Internet Explorer 11 (with some limitations), Opera, it may work on older browsers however you may have rendering issues using this theme in your webstore",
+	"main": "gulpfile.js",
+	"scripts": {
+		"compile": "npm run build && node_modules/.bin/ntheme compile",
+		"build": "gulp build",
+		"watch": "gulp watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Online-Retail-Guy/five.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Online-Retail-Guy/five/issues"
+	},
+	"homepage": "https://github.com/Online-Retail-Guy/five",
+	"devDependencies": {
+		"autoprefixer": "^9.8.6",
+		"cssnano": "^4.1.10",
+		"gulp": "^4.0.2",
+		"gulp-chmod": "^3.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-plumber": "^1.2.1",
+		"gulp-postcss": "^8.0.0",
+		"gulp-purge-sourcemaps": "^1.0.0",
+		"gulp-remove-sourcemaps": "^1.0.0",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"node-sass": "^4.14.1",
+		"ntheme": "^1.11.0",
+		"postcss-strip-inline-comments": "^0.1.5",
+		"simple-github-release": "git+https://github.com/brandonsheppard/simple-github-release.git"
+	},
+	"dependencies": {
+		"bootstrap": "^5.0.0",
+		"jquery": "^3.5.1",
+		"@popperjs/core": "^2.11.5"
+	},
+	"browserslist": [
+		"last 1 version",
+		"not dead"
+	]
+}
