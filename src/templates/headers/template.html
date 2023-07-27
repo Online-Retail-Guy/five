@@ -11,12 +11,12 @@
 <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
 <header class="container wrapper-header py-3" aria-label="Header container">
 	<div class="row pb-2 align-items-center">
-		<div class="col-7 col-sm-4 wrapper-logo text-sm-left">
+		<div class="col-7 col-sm-2 wrapper-logo text-sm-left">
 			<a href="[@config:home_url@]" title="[@config:company_name@]">
 				<img class="logo" src="[@config:imageurl@]/website_logo.png?[@config:neto_css_version@]" alt="[@config:company_name@] logo"/>
 			</a>
 		</div>
-		<div class="col-5 col-sm-8 d-block d-md-none text-end">
+		<div class="col-5 col-sm-10 d-block d-md-none text-end">
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMainMenu" aria-controls="navbarMainMenu" aria-expanded="false" aria-label="Toggle navigation">
 				<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
 			</button>
@@ -25,7 +25,7 @@
 				<span class="badge badge-pill badge-secondary" rel="a2c_item_count">[%format type:'number' dp:'0'%][%CART id:'total_items'%][%/CART%][%/format%]</span>
 			</a>
 		</div>
-		<div class="d-none d-md-block col-12 col-sm-8 col-md-4 col-lg-4">
+		<div class="d-none d-md-block col-12 col-sm-8 offset-md-2 col-md-4 offset-lg-2 col-lg-4">
 			<div class="header-search pt-2 pt-md-0">
 				<form name="productsearch" method="get" action="/" role="search" aria-label="Product search">
 					<input type="hidden" name="rf" value="kw"/>
