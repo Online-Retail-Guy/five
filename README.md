@@ -28,10 +28,6 @@ To install the latest version of Five directly from this repository you simply n
 
 For the above, you will need SFTP access to your Neto by Maropost website, which you can request [here](https://forms.neto.com.au/design/requestftp.html).
 
-**New theme**
-
-For creating a new Maropost Commerce Cloud theme, you will want to use the [Theme Starter Kit](https://www.npmjs.com/package/ntheme).
-
 ## Documentation
 
 Documentation for designers and developers can be found [here](https://developers.maropost.com/documentation/web-designers/getting-started).
