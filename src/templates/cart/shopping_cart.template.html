@@ -12,7 +12,8 @@
 			[%/if%] -->
 		</div>
 		<div class="col-12 col-md-4 col-lg-3">
-			<button class="btn btn-success btn-lg btn-block" type="button" role="link" onclick="window.location='[%url page:'checkout' fn:'payment'/%]';" title="Checkout Now"><i class="fa fa-shopping-cart icon-white" aria-hidden="true"></i> Checkout Now</button>
+			<div class="d-grid">
+			<button class="btn btn-success btn-lg btn-block" type="button" role="link" onclick="window.location='[%url page:'checkout' fn:'payment'/%]';" title="Checkout Now"><i class="fa fa-shopping-cart icon-white" aria-hidden="true"></i> Checkout Now</button></div>
 		</div>
 	</div>
 	<div class="row">
@@ -278,9 +279,10 @@
 							[%/if%]
 						</div>
 						<div class="col-12 col-lg-6 text-center mb-1">
+							<div class="d-grid">
 							<button class="btn btn-success btn-lg btn-block" role="link" type="button" onclick="window.location='[%url page:'checkout' fn:'payment'/%]';" title="Checkout now">
 								<i class="fa fa-shopping-cart" aria-hidden="true"></i> Checkout Now
-							</button>
+							</button></div>
 						</div>
 					</div>
 				</form>
