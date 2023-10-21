@@ -171,10 +171,10 @@
 							<form method="post" name="SHsummary" action="[%url page:'checkout'/%]">
 							[%/param%]
 							[%param *body%]
-								<div class="form-group">
-								<label class="d-block" for="[@id@]">
-									<input class="float-left" type="radio" onclick="document.SHsummary.submit()" name="ship" value="[@id@]" id="[@id@]" [%if [@id@] == [@shipping_method_id@]%]checked[%/if%]>
-									<h4>&nbsp;[@shipping_method@] - [%if [@shipping_quote@]%] P.O.A [%else%] [%if [@cost@] == 0%] [%if [@na@] == 0%] [%if [@config:free_shipping_label_for_webstore@]%] [@config:free_shipping_label_for_webstore@] [%else%] Free [%/if%] [%else%] Not Applicable [%/if%] [%else%] [%format type:'currency'%][@cost@][%/format%] [%/if%] [%/if%] </h4>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" onclick="document.SHsummary.submit()" name="ship" value="[@id@]" id="[@id@]" [%if [@id@] == [@shipping_method_id@]%]checked[%/if%]>
+									<label class="form-check-label" for="[@id@]">
+										<h4>&nbsp;[@shipping_method@] - [%if [@shipping_quote@]%] P.O.A [%else%] [%if [@cost@] == 0%] [%if [@na@] == 0%] [%if [@config:free_shipping_label_for_webstore@]%] [@config:free_shipping_label_for_webstore@] [%else%] Free [%/if%] [%else%] Not Applicable [%/if%] [%else%] [%format type:'currency'%][@cost@][%/format%] [%/if%] [%/if%] </h4>
 									[%if [@delivery_time@] >= 1%]
 									<p>Estimated arrival of [%format type:'number' tl_unit:'day' tl_plural:'days'%][@delivery_time@][%/format%]</p>
 									[%/if%]
