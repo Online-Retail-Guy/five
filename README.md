@@ -60,7 +60,7 @@ Contributing to Five is open and welcome, please read the [contribution guidelin
 
 ## Support
 
-Installation and implementation support is available for $300 per hour. You can [Contact us here](https://www.onlineretailguy.com.au/contact)
+Installation and implementation support is available for $350 + GST per hour. You can [Contact us here](https://www.onlineretailguy.com.au/contact)
 
 ## Original Creators
 
@@ -68,4 +68,4 @@ Original Skeletal theme developed by [Maropost](https://www.netohq.com/).
 
 ## Maintained
 
-Five is maintained by [Online Retail Guy](https://www.onlineretailguy.com.au/) as a labour of love for the Neto Community. Installation and implementation support is available for $300 per hour. You can [Contact us here](https://www.onlineretailguy.com.au/contact)
+Five is maintained by [Online Retail Guy](https://www.onlineretailguy.com.au/) as a labour of love for the Neto Community. Installation and implementation support is available for $350 + GST per hour. You can [Contact us here](https://www.onlineretailguy.com.au/contact)
