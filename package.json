@@ -1,6 +1,6 @@
 {
 	"name": "five",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Five started as a direct port  of the Skeletal development theme for Neto by Maropost which is the base theme framework that contains all of platform's front-end features. The Five theme updates the Bootstrap framework to version 5 and has since morphed into its own development theme with different goals and ideas from the original Skeletal theme. Special note on browser compatibility, Bootstrap 5 only supports the latest two versions of the following Chrome, Firefox, Safari, Edge, Internet Explorer 11 (with some limitations), Opera, it may work on older browsers however you may have rendering issues using this theme in your webstore",
 	"main": "gulpfile.js",
 	"scripts": {
